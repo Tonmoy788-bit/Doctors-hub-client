@@ -4,6 +4,8 @@ import InfoCards from '../InfoCards/InfoCards';
 import Services from '../Services/Services';
 import Dental from '../Dental/Dental'
 import MakeAppointment from '../MakeAppointment/MakeAppointment';
+import Testimonial from '../Testimonial/Testimonial';
+import ContactUs from '../ContactUs/ContactUs';
 
 
 
@@ -15,6 +17,8 @@ const Home = () => {
             <Services></Services>
             <Dental></Dental>
             <MakeAppointment></MakeAppointment>
+            <Testimonial></Testimonial>
+            <ContactUs></ContactUs>
         </div>
     );
 };
